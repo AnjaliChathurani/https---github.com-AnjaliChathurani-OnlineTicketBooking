@@ -55,6 +55,7 @@ class movieposter extends Component {
 
   render() {
     const idnow = this.state.idnow;
+    const idnowticket = this.state.idnowticket;
     const idtrending = this.state.idtrending;
     console.log("nowtest", idtrending);
     const idup = this.state.idup;
