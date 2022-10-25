@@ -1,0 +1,451 @@
+
+.nowshowing-title{
+   
+   /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+   font-family: 'Muli', sans-serif;
+   
+   color:rgb(42, 42, 129);
+
+}
+
+@media screen and (min-width: 601px) {
+   .nowshowing-title{
+       padding: 20px 50px 20px 50px;
+       margin: 20px;
+       font-size: 30px;
+   }
+} 
+@media screen and (max-width: 600spx) {
+   .nowshowing-title{
+       padding: auto;
+       margin: 20px 20px 10px 20px;
+       font-size: 10px;
+   }
+}
+
+
+@media screen and (min-width: 601px) {
+   .trendingrow1{
+   
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+      padding-bottom:50px;
+   }
+} 
+@media screen and (max-width: 600spx) {
+   .trendingrow1{
+     
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    
+      padding-bottom: 10px;
+   }
+}
+ 
+.h2-movie-trend{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-family:Arial, Helvetica, sans-serif;
+  
+   
+}
+@media screen and (min-width: 601px) {
+   .h2-movie-trend{
+      font-size: 30px;
+   }
+} 
+@media screen and (max-width: 600spx) {
+   .h2-movie-trend{
+      font-size: 12px;
+      margin: 0px;
+   }
+}
+@media screen and (min-width: 601px) {
+   .movie-trending-detail{
+      display: inline-block;
+      font-size: 20px;
+     
+   }
+} 
+@media screen and (max-width: 600spx) {
+   .movie-trending-detail{
+      font-size: 8px;
+      
+   }
+}
+.trending-image{
+   object-fit:cover;
+   width: 100%;
+   padding: auto;
+   height: 100px;
+   justify-content: center;
+
+}
+@media screen and (min-width: 601px) {
+   .trendingYear{
+     display:inline-block;
+     font-size: 15px;
+     padding: 5px;
+     text-align: center;
+     /* margin: 10px ; */
+     border-radius: 10px;
+     background-color:transparent;
+     color: rgb(255, 255, 255);
+     border: 1px solid rgb(255, 255, 255); 
+     width: 50px;
+     
+     
+   }
+ }
+ @media screen and (min-width: 601px) {
+   .trendingTime {
+     display:inline-block;
+     font-size: 15px;
+     padding: 5px;
+     text-align: center;
+     margin: 10px;
+     border-radius: 10px;
+     background-color:transparent;
+     color: rgb(255, 255, 255);
+     border: 1px solid rgb(255, 255, 255); 
+     width: 100px;
+     
+     
+   }
+ }
+ @media screen and (min-width: 601px) {
+   .trendingType {
+     display:inline-block;
+     text-align: center;
+     font-size: 15px;
+     padding: 5px;
+     margin: 10px;
+     border-radius: 10px;
+     background-color:transparent;
+     color: rgb(255, 255, 255);
+     border: 1px solid rgb(255, 255, 255); 
+     width: 60px;
+     
+     
+   }
+ } 
+
+ @media screen and (max-width: 600px) {
+   .trendingYear {
+     display:inline-block;
+     font-size: 12px;
+     padding: 2px;
+     text-align: center;
+     /* margin: 10px; */
+     border-radius: 10px;
+     background-color:transparent;
+     color: rgb(255, 255, 255);
+     border: 1px solid rgb(255, 255, 255); 
+     width: 30px;
+    
+     
+   }
+ }
+ @media screen and (max-width: 600px) {
+   .trendingTime {
+     display:inline-block;
+     font-size: 12px;
+     padding: 2px;
+     text-align: center;
+     margin: 0px 2px 0px 2px;
+     border-radius: 10px;
+     background-color:transparent;
+     color: rgb(255, 255, 255);
+     border: 1px solid rgb(255, 255, 255); 
+     width: 60px;
+     
+     
+   }
+ }
+ @media screen and (max-width: 600px) {
+   .trendingType  {
+     display:inline-block;
+     text-align: center;
+     font-size: 12px;
+     padding: 2px;
+     /* margin: 10px; */
+     border-radius: 10px;
+     background-color:transparent;
+     color: rgb(255, 255, 255);
+     border: 1px solid rgb(255, 255, 255); 
+     width: 30px;
+    
+     
+   }
+ }
+
+.trendingcol1{
+   /* justify-content: left;
+   /* margin-left: 10px; */
+   /* margin-top: 5px; */ 
+  
+   /* width: 70%;
+   height: 250px;
+   position: relative;
+   padding: 30px;
+   border-radius: 5px; */
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: 'Muli', sans-serif;
+   background-image: url("https://i.ytimg.com/vi/xOUPBiEoegg/maxresdefault.jpg");
+   opacity: 0.9;
+   
+   color: rgb(255, 255, 255);
+   font-weight: bolder;
+   text-decoration: none;
+
+}
+@media screen and (min-width: 601px) {
+   .trendingcol1{
+      justify-content: left;
+   /* margin-left: 10px; */
+   margin-top: 5px;
+  
+      width: 80%;
+   height: auto;
+   position: relative;
+  
+   border-radius: 5px;
+   border: 5px solid rgba(0, 0, 0.5, 0.05) ; 
+   object-fit:cover;
+   }
+} 
+@media screen and (max-width: 600spx) {
+   .trendingcol1{
+      justify-content: left;
+      /* margin-left: 10px; */
+      margin-top: 5px;
+         width: 70%;
+      height: 250px;
+      position: relative;
+      padding: 20px;
+      border-radius: 5px;
+      border: 1px solid rgba(0, 0, 0.5, 0.05) ; 
+   }
+}
+   
+@media screen and (min-width: 601px) {
+   .trendingimages{
+      /* object-fit:cover; */
+      width: 80%;
+      height: 300px;
+    
+     
+   }
+} 
+@media screen and (max-width: 600spx) {
+   .trendingimages{
+      object-fit:cover;
+      width: 90%;
+      height: 300px;
+   }
+}
+.trending-all-details{
+  
+   background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.63);
+ 
+  height: 180px;
+  
+ 
+}
+@media screen and (min-width: 601px) {
+   .trending-all-details{
+      background: rgb(0, 0, 0); 
+      background: rgba(0, 0, 0, 0.63);
+      margin: 20px;
+      padding: 70px 50px 70px 20px;
+      height: 180px;
+     
+   }
+} 
+@media screen and (max-width: 600spx) {
+   .trending-all-details{
+      
+      padding: 50px 50px 50px 20px;
+      height: 180px;
+   }
+}
+
+.h2-movie{
+   text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+   
+  
+   
+   color:rgb(255, 255, 255);
+   
+
+}
+@media screen and (min-width: 601px) {
+   .h2-movie{
+      font-size: 15px;
+      padding-left: 10px;
+      
+      font-weight: bold;
+     
+   }
+} 
+@media screen and (max-width: 600spx) {
+   .h2-movie{
+      font-size: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+      /* padding-left: 5px;; */
+   }
+}
+@media screen and (min-width: 601px) {
+   .year-trending-details{
+      padding-left: 10px;
+     
+   }
+} 
+/* @media screen and (max-width: 600spx) {
+   .year-trending-details{
+      padding-left: 5px;
+   }
+} */
+
+
+/* .col-4{
+   
+   margin: 10px; 
+  
+   width: 10%;
+   position: relative;
+   padding: 30px;
+   overflow: scroll ;
+   height: 100px;
+  
+   
+   /* scroll-snap-points-y: repeat(100vh);*/
+   /* scroll-snap-type: y mandatory;
+  
+   
+}  */
+@media screen and (min-width: 601px) {
+   .trendingcol2{
+      margin: 5px; 
+  
+      width: 15%;
+      position: relative;
+      padding: 20px 10px 10px 30px;
+      overflow: scroll ;
+      overflow-x: hidden;
+      height: 300px;
+      
+      
+      /* scroll-snap-points-y: repeat(100vh);*/
+      scroll-snap-type: y mandatory;
+   }
+} 
+@media screen and (max-width: 600spx) {
+   .trendingcol2{
+       
+  
+      width: 50px;
+      margin: auto;
+      position: relative;
+      /* padding: 10px; */
+      overflow: scroll ;
+      overflow-x: hidden;
+      height: 80px;
+    
+      scroll-snap-type: y mandatory;
+   }
+}
+
+/* .trending-col{
+   width: 100%;
+} */
+
+
+
+.movie{
+   
+  scroll-snap-align: start;
+}
+
+.detail{
+   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   cursor: pointer;
+/*    
+   padding: 20px;
+   width: 100%;
+   height: 100px;
+   justify-content: center;
+   margin-right: 20px;
+   font-size: 20px;
+    text-align:left; */
+    text-decoration: none;
+   
+    /* font-weight: bold; */
+}
+@media screen and (min-width: 601px) {
+   .detail{
+      position: relative;
+      /* max-width: 800px; Maximum width */
+      /* margin: 0 auto; Center it     */
+   /* padding: 10px; */
+   width: 100%;
+   height: 100px;
+   justify-content: center;
+   margin-right: 20px;
+   font-size: 18px;
+    text-align:left;
+   }
+} 
+@media screen and (max-width: 600spx) {
+   .detail{
+       
+   /* padding: 20px; */
+   width: 100%;
+   height: 100px;
+   justify-content: center;
+   margin-right: 10px;
+   font-size: 12px;
+    text-align:left;
+   }
+}
+.detail:hover{
+   opacity: 2;
+    background-color:rgba(224, 224, 230, 0.767);
+    color: rgb(8, 8, 8);
+}
+.span{
+   width:20px;
+}
+.detail .trending-details2{
+   
+   position: absolute; /* Position the background text */
+   
+   bottom: 0; 
+    /* background: rgb(0, 0, 0); Fallback color */
+   background: rgba(0, 0, 0, 0.5); 
+   color: #f1f1f1; /* Grey text */
+   width: 100%; /* Full width */
+   height: 100px;
+   /* padding: 20px;  */
+}
+@media screen and (min-width: 601px) {
+  
+.fas-fa-star-trending{
+   color: gold;
+   padding-left: 10px;
+   
+}
+} 
+@media screen and (max-width: 600spx) {
+   
+.fas-fa-star-trending{
+   color: gold;
+   
+}
+}

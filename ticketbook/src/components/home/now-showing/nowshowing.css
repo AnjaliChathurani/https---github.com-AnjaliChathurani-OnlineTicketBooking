@@ -1,0 +1,238 @@
+
+.item{
+   
+    font-family: 'Muli', sans-serif;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+   
+    font-style:inherit;
+    /* font-weight: bold; */
+   
+    text-decoration: none;
+    
+}
+@media screen and (min-width: 601px) {
+    .item {
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+        font-size: 20px; 
+        padding: 5px;
+        text-align:left;
+        width: 300px;
+        height: 500px;
+        padding: 20px 10px 50px 10px;
+        border: 5px solid rgba(0, 0, 0.5, 0.05) ;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .item {
+        font-size: 15px; 
+        
+        text-align:center;
+        width: 100%;
+        height: auto;
+        border: 1px solid rgba(255, 255, 255, 0.05) ;
+       
+        
+        
+    
+    }
+}
+.a{
+    text-decoration: none;
+}
+/* .nowshowingimages{
+    object-fit:cover;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+      
+} */
+@media screen and (min-width: 601px) {
+    .nowshowingimages {
+        object-fit:cover;
+        width: 100%;
+        height: 400px;
+        justify-content: center;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .nowshowingimages {
+    object-fit:cover;
+    width: 100%;
+    max-width: 400px;
+    max-height:300px;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    }
+  }
+.movie-nowshow{
+    
+    font-style:inherit;
+    
+    text-decoration: none;
+    
+    
+    
+}
+@media screen and (min-width: 601px) {
+    .movie-nowshow {
+    width: 10%;
+    font-size: 20px;
+    margin: 5px;
+    text-align:left;
+    justify-content: left;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .movie-nowshow {
+    
+    font-size: 15px;
+    
+    text-align:center;
+    justify-content: center;
+    
+    }
+  }
+@media screen and (min-width: 601px) {
+    .movie-details{
+        font-size: 15px;
+        font-style:inherit;
+        text-align:left;
+        text-decoration: none;
+        color: rgb(68, 66, 66);
+        font-weight: 500px;
+        padding: 0px;
+        margin: 5px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .movie-details{
+        font-size: 12px;
+        font-style:inherit;
+        text-align:center;
+        text-decoration: none;
+        padding: 0px;
+        margin: 5px;
+        color: rgb(68, 66, 66);
+        font-weight: 500px;
+    }
+}
+
+.button-details{
+   
+    color: rgb(253, 245, 245);
+    
+    border: none;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    background-color:rgb(30, 56, 97);
+    
+    font-weight: bold;
+    
+   
+    
+}
+@media screen and (min-width: 601px) {
+    .button-details{
+        width: 30%;
+        padding: 5px;
+        margin: 5px 30px 5px 30px;
+        size: 20px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .button-details{
+        width: 30%;
+        padding: 5px;
+        size: 15px;
+        font-size: 15px;
+        border-radius: 5px;
+        display: inline-block;
+        vertical-align: bottom;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        
+    }
+}
+.button-details:hover {
+    opacity: 2;
+    background-color:rgb(109, 109, 114);
+    color: rgb(8, 8, 8);
+}
+.button-ticket{
+    
+    scroll-behavior: smooth;
+    color:white;
+    
+    border: none;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    background-color:rgb(72, 109, 165);
+    
+    font-weight: bold;
+   
+}
+@media screen and (min-width: 601px) {
+    .button-ticket{
+        width: 30%;
+        padding: 5px;
+        margin: 5px 20px 5px 20px;
+        size: 20px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .button-ticket{
+        
+        padding: 5px;
+        width: 30%;
+        size: 15px;
+        font-size: 15px;
+        border-radius: 5px;
+        display: inline-block;
+        /* vertical-align: bottom; */
+        margin: auto;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+    }
+}
+
+.button-ticket:hover {opacity: 2;
+    
+    background-color:rgb(66, 66, 155);
+    color:white;}
+
+    @media screen and (min-width: 601px) {
+        .fas-fa-star-nowshowing{
+            margin: 10px 0px 0px 0px;
+            color:gold;
+        }
+      }
+      
+    @media screen and (max-width: 600px) {
+        .fas-fa-star-nowshowing{
+            margin: 10px 0px 0px 0px;
+            color:gold;
+        }
+      }

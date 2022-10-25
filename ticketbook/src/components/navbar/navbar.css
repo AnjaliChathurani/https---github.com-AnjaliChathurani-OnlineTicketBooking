@@ -1,0 +1,123 @@
+/* .nav-col{
+    margin: 0px;
+    
+} */
+
+@media screen and (min-width: 601px) {
+    .nav-col {
+      font-size: 20px;
+      width:100%;
+      margin: 0px;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .nav-col{
+      font-size: 15px;
+      width: 100%;
+      margin: 0px;
+    }
+  }
+
+
+.nav {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(1, 25, 49);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: rgb(152, 187, 240); */
+    /* background-color: transparent; */
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 10px;
+    font-weight: bolder;
+    /* position:absolute; */
+    /* top: 0; */
+   
+    /* width: 100%; */
+    text-decoration-color: rgb(214, 231, 231);
+    
+   
+}
+
+.image-navbar{
+    width: 100px;
+    height: 50px;
+    margin: 0px ;
+   
+
+       
+    display: flex;
+    float: left;
+   
+}
+.image-logo-nav{
+  margin-left: 40px;
+}
+
+.nav-link1{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  
+   
+    
+}
+.nav-link1:hover{
+  color:rgb(226, 142, 14);
+}
+.nav-link2{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}.nav-link2:hover{
+  color:rgb(226, 142, 14);
+}
+.nav-link3{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+.nav-link3:hover{
+  color: rgb(226, 142, 14);
+}
+.nav-link4{
+   
+    
+    
+    float: right;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+.nav-link4:hover{
+  color:rgb(226, 142, 14);
+}
+@media screen and (min-width: 601px) {
+    .nav-link4 {
+        padding-right: 5px;
+        font-size: 20px;
+        margin-right: 30px;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .nav-link4{
+      font-size: 15px;
+      /* width: 100%; */
+      margin: 20px 0px 0px 0px;
+      /* display: flex;
+    justify-content: right; */
+    
+    }
+  }
+ 
+   
